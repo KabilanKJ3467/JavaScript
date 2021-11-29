@@ -1,0 +1,117 @@
+<html>
+
+    <head>
+
+     <link rel="stylesheet" href="Styles/resume styles.css">
+     <script src="Script/resume script.js"></script>
+
+    </head>
+
+    <body>
+       <h1>Submit Your Application</h1>
+       <p>for .net developer(fresher)</p>
+       
+       <h3>Personal Information</h3>
+       <forms>
+           <span>Name as per Id proof*</span>
+           <input  id="name" type="text" >
+           <label id="name1" style="visibility: hidden;color:red" >Name Required</label>
+            <label id="name2" style="visibility: hidden;color:blue">Enter Valid Name</label>
+
+           <span>Father's Name*</span>
+           <input  id="fathername" type="text" >
+            <label id="fathername1" style="visibility: hidden;color:red" >Last Name Required</label>
+            <label id="fathername2" style="visibility: hidden;color:blue">Enter Valid Last Name</label> <br><br>
+
+           <span>Email ID*</span>
+           <input  id="emailid" type="text" >
+           <label id="emailid1" style="visibility: hidden;color:red" >Email Id Required</label>
+           <label id="emailid2" style="visibility: hidden;color:blue">Enter Valid Email Id</label>
+
+           <span>Date of Birth*</span>
+           <input  id="dateofbirth" type="text" placeholder="dd-mm-yyyy" >
+           <label id="dateofbirth1" style="visibility: hidden;color:red" >Required</label>
+           <label id="dateofbirth2" style="visibility: hidden;color:blue">Enter Valid Date of Birth</label>
+
+            <span>Mobile Number*</span>
+           <input  id="mobilenumber" type="text"  >
+           <label id="mobilenumber1" style="visibility: hidden;color:red" >Required</label>
+            <label id="mobilenumber2" style="visibility: hidden;color:blue">Enter Valid Mobile Number</label> <br><br><br>
+
+
+           <span>Current Address*</span><br>
+
+           <input  id="currentaddresslane1" type="text" placeholder="Address lane 1"> 
+           <label id="currentaddresslane1-1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="currentaddresslane1-2" style="visibility: hidden;color:blue">Enter Valid Address</label>
+
+
+           <input  id="currentaddresslane2" type="text" placeholder="Address lane 2">
+           <label id="currentaddresslane2-1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="currentaddresslane2-2" style="visibility: hidden;color:blue">Enter Valid Address</label>
+            <br><br>
+
+
+           <span>City*</span>
+           <input  id="currentcity" type="text" > 
+           <label id="currentcity1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="currentcity2" style="visibility: hidden;color:blue">Enter Valid Input</label>
+           <br><br>
+           <span>State*</span>
+           <select>
+               <option>Tamil Nadu</option>
+               <option>Kerala</option>
+               <option>Delhi</option>
+               <option>Rajasthan</option>
+               <option>West Bengal</option>
+           </select>
+
+           <span>Pincode*</span>
+           <input  id="currentpincode" type="text" > 
+           <label id="currentpincode1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="currentpincode2" style="visibility: hidden;color:blue">Enter Valid Address</label><br><br><br>
+
+
+           <span>Permanent Address*</span>
+           
+           <input id="radiobutton" onclick="addresscopy()" type="checkbox"> <span>Same as Current Address</span><br>
+
+
+           <input  id="permanentaddresslane1" type="text" placeholder="Address lane 1"> 
+           <label id="permanentaddresslane1-1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="permanentaddresslane1-2" style="visibility: hidden;color:blue"> Enter Valid Addresst</label>
+
+           <input  id="permanentaddresslane2" type="text" placeholder="Address lane 2"> 
+           <label id="permanentaddresslane2-1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="permanentaddresslane2-2" style="visibility: hidden;color:blue">Enter Valid Address</label><br><br>
+
+
+           <span>City*</span>
+           <input  id="permanentcity" type="text" > 
+           <label id="permanentcity1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="permanentcity2" style="visibility: hidden;color:blue">Enter Valid Input</label>
+           <br><br>
+           <span>State*</span>
+           <select id="state">
+               <option>Tamil Nadu</option>
+               <option>Kerala</option>
+               <option>Delhi</option>
+               <option>Rajasthan</option>
+               <option>West Bengal</option>
+           </select>
+           <span>Pincode*</span>
+           <input  id="permanentpincode" type="text" > 
+           <label id="permanentpincode1" style="visibility: hidden;color:red" >Enter Input</label>
+           <label id="permanentpincode2" style="visibility: hidden;color:blue">Enter Valid Input</label><br><br><br>
+           <span> Upload Profile Photo</span>
+           <button id="uploadbutton">Upload Photo</button><br><br><br>
+
+           <input type="submit" id="submitbutton" onclick="SubmitClickFunction()"> </input>
+          
+
+       </forms>
+
+
+    </body>
+
+</html>
